@@ -24,13 +24,6 @@ p {
     text-align: center;
 }
 
-button {
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
-}
-
 img {
     max-width: 90%;
     width: 20em;
