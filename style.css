@@ -16,6 +16,13 @@ p {
     text-align: left;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Additional styling for the container if needed */
+}
+
 img {
     max-width: 90%;
     width: 40em;
