@@ -25,22 +25,19 @@ p {
 }
 
 button {
-  border: none;
-  cursor: pointer;
-  appearance: none;
-  background-color: inherit;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
 }
 
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px;
+button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
 
-button {
-  transition: transform 0.7s ease-in-out;
-}
 
 img {
   width: 10px;
