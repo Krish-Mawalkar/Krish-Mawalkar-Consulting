@@ -26,5 +26,7 @@ p {
 
 img {
     max-width: 90%;
-    width: 20em;
+    width: auto;
+    height: auto;
+    margin:0;
     }
