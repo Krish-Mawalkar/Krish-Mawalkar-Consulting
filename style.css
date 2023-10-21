@@ -24,6 +24,50 @@ p {
     text-align: center;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+button {
+  transition: transform 0.7s ease-in-out;
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+input[type='email'] {
+  padding: 10px;
+  border: 2px solid #314de4;
+  outline: none;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #314de4;
+}
+
+.text {
+  font-size: 60px;
+  color: #314de4;
+  font-family: Arial;
+}
+
+
+
 img {
     max-width: 90%;
     width: 20em;
